@@ -1886,7 +1886,7 @@ var PDFViewerApplication = {
 };
 var validateFileURL = void 0;
 {
-  var HOSTED_VIEWER_ORIGINS = ['null', 'u.lesshire.com'];
+  var HOSTED_VIEWER_ORIGINS = ['null', 'u.lesshire.com', '*.lesshire.com'];
   validateFileURL = function validateFileURL(file) {
     if (file === undefined) {
       return;
