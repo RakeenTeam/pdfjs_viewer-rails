@@ -5,7 +5,7 @@ require "pdfjs_viewer-rails/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "pdfjs_viewer"
+  s.name        = "pdfjs_viewer-rails"
   s.version     = PdfjsViewer::Rails::VERSION
   s.authors     = ["Yves Senn"]
   s.email       = ["yves.senn@gmail.com"]
